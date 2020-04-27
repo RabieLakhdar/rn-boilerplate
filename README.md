@@ -1,4 +1,4 @@
-# Structuring the pillars
+# Structuring the pillars Of React native Project
  We will define a structure for our project to grow efficiently and make its maintenance easier.
 
 ```js
