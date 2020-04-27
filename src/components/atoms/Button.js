@@ -1,12 +1,8 @@
 import React, {memo} from 'react';
-import Title from '_atoms/Title';
+import Title from 'components/atoms/Title';
 import {TouchableOpacity} from 'react-native';
 
-const Button = ({title, titleStyle, ...props}) => {
-  return (
-    <TouchableOpacity {...props}>
-      <Title title={title} style={titleStyle} />
-    </TouchableOpacity>
-  );
+const Button = (props) => {
+  return <TouchableOpacity {...props}>{props.children}</TouchableOpacity>;
 };
 export default memo(Button);

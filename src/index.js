@@ -1,8 +1,6 @@
 import React from 'react';
-import {Text} from 'react-native';
+import Navigator from 'navigations';
 
-const App = () => {
-  return <Text>RN Biolerpalte</Text>;
-};
+const App = () => <Navigator />;
 
 export default App;
