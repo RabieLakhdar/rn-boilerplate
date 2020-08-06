@@ -52,3 +52,7 @@ They can be shared with multiple screens and components in your project.
 
 Commonly used to create services that make contact with external APIs and use the axios library that we mentioned at the beginning of the post.
 ```
+# to change package id on IOS/ANDROID folders
+using [react native rename](https://www.npmjs.com/package/react-native-rename)
+example:
+react-native-rename "App name" -b com.domain.app

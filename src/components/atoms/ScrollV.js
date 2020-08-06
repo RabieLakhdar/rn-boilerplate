@@ -1,7 +1,7 @@
 import React, {memo} from 'react';
 import {ScrollView} from 'react-native';
 
-const ScrollFragement = props => {
+const ScrollV = props => {
   return <ScrollView {...props}>{conprops.children}</ScrollView>;
 };
-export default memo(ScrollFragement);
+export default memo(ScrollV);

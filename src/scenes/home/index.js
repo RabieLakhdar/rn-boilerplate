@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import AreaFragement from 'components/atoms/AreaFragement';
+import AreaView from 'components/atoms/AreaView';
 import Title from 'components/atoms/Title';
 import Button from 'components/atoms/Button';
 import {albums} from './actions';
@@ -17,13 +17,13 @@ const HomeScreen = ({navigation}) => {
   }, [dispatch]);
 
   return (
-    <AreaFragement>
+    <AreaView>
       <Title>Screen: Home</Title>
 
       <Button onPress={() => navigation.navigate('About')}>
         <Title>Go to About</Title>
       </Button>
-    </AreaFragement>
+    </AreaView>
   );
 };
 export default HomeScreen;
